@@ -1,0 +1,49 @@
+.titlebar{
+  height: 6rem;
+  background-color: rgb(73, 97, 138);
+  display: flex;
+  justify-content: space-between;
+}
+
+.ctitle{
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 28px;
+  padding-top: 1.5rem;
+}
+
+.menu ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.menu ul li{
+  margin: 20px;
+  padding-top: 1rem;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.addProduct{
+  border: 2px solid black;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.fetchProducts{
+  border: 2px solid black;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.editProduct{
+  border: 2px solid black;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
